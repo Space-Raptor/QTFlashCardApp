@@ -1,0 +1,9 @@
+# ninja log v7
+5	150	8120282815223487	qtflashcardapp_autogen/timestamp	3695414b3520d31d
+5	150	8120282815223487	qtflashcardapp_autogen/mocs_compilation.cpp	3695414b3520d31d
+5	150	8120282815223487	C:/Users/liamk/Desktop/QTFlashCardApp/builds/GCC 16.1.0 x86_64-w64-mingw32 (mingw64)/Debug/qtflashcardapp_autogen/timestamp	3695414b3520d31d
+5	150	8120282815223487	C:/Users/liamk/Desktop/QTFlashCardApp/builds/GCC 16.1.0 x86_64-w64-mingw32 (mingw64)/Debug/qtflashcardapp_autogen/mocs_compilation.cpp	3695414b3520d31d
+153	203	8120282815636808	CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.obj	b1458a13fe772db
+163	214	8120282815741904	CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj	485452c570feb38d
+159	502	8120282815691929	CMakeFiles/qtflashcardapp.dir/main.cpp.obj	975fe21008b3da2
+502	599	8120282819126300	qtflashcardapp.exe	3271e23b31d35be0
