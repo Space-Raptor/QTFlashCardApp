@@ -2,9 +2,16 @@
 #include "ui_mainwindow.h"
 #include<QCoreApplication>
 
-int main(int argc, char* argv[])
-{
-    QApplication a (argc, argv);
 
-    return 0; 
+
+MainWindow::MainWindow()
+    : QMainWindow()
+    , ui(new Ui::MainWindow())
+{
+    return; 
+}
+
+MainWindow::~MainWindow()
+{
+    delete ui; 
 }
