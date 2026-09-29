@@ -13,16 +13,116 @@
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
-  <widget class="QWidget" name="centralwidget"/>
-  <widget class="QMenuBar" name="menubar">
-   <property name="geometry">
-    <rect>
-     <x>0</x>
-     <y>0</y>
-     <width>800</width>
-     <height>33</height>
-    </rect>
-   </property>
+  <property name="layoutDirection">
+   <enum>Qt::LayoutDirection::LeftToRight</enum>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:  	#3b3b3b;
+ background: qlineargradient(
+ 		x1: 0, y1: 0,
+        x2: 1, y2: 1,
+        stop: 0 #292B2B,
+        stop: 0.5 #303333,
+        stop: 1 #272929
+    );</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="topicListWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>12</y>
+      <width>256</width>
+      <height>301</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:#808080;
+border-radius: 20px;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newFlashCardBTN">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>20</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Display</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 8px;
+    background-color: #808080;
+    color: white;
+    border: none;</string>
+    </property>
+    <property name="text">
+     <string>Upload new flash cards</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="newTopicBTN">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>50</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Display</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 8px;
+    background-color: #808080;
+    color: white;
+    border: none;</string>
+    </property>
+    <property name="text">
+     <string>Create New Topic</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="startBTN">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>80</y>
+      <width>141</width>
+      <height>26</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Sitka Display</family>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 8px;
+    background-color: #808080;
+    color: white;
+    border: none;</string>
+    </property>
+    <property name="text">
+     <string>Begin with selected topics</string>
+    </property>
+   </widget>
+   <zorder>newFlashCardBTN</zorder>
+   <zorder>newTopicBTN</zorder>
+   <zorder>startBTN</zorder>
+   <zorder>topicListWidget</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>

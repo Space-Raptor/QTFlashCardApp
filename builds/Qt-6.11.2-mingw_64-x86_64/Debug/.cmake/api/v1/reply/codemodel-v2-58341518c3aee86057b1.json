@@ -485,7 +485,7 @@
 					],
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a984dcea23ed05b15c00.json",
+					"jsonFile" : "directory-.-Debug-0944937373dab64d3d4a.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -584,21 +584,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "qtflashcardapp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qtflashcardapp-Debug-a9c4ade57b15130ef991.json",
+					"jsonFile" : "target-qtflashcardapp-Debug-1a8b5e9aff0ae002fe9f.json",
 					"name" : "qtflashcardapp",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "qtflashcardapp_autogen::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qtflashcardapp_autogen-Debug-e1fc3b9da2e69a212fcb.json",
+					"jsonFile" : "target-qtflashcardapp_autogen-Debug-305d6a411a9bca8c48a1.json",
 					"name" : "qtflashcardapp_autogen",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "qtflashcardapp_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qtflashcardapp_autogen_timestamp_deps-Debug-d43efcfa036f98f18e60.json",
+					"jsonFile" : "target-qtflashcardapp_autogen_timestamp_deps-Debug-86b713a9a81dd489a682.json",
 					"name" : "qtflashcardapp_autogen_timestamp_deps",
 					"projectIndex" : 0
 				}

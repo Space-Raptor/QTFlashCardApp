@@ -8,6 +8,7 @@ MainWindow::MainWindow()
     : QMainWindow()
     , ui(new Ui::MainWindow())
 {
+    ui->setupUi(this);
     return; 
 }
 

@@ -82,13 +82,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 24,
+				"line" : 25,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 16,
+				"line" : 17,
 				"parent" : 0
 			},
 			{
@@ -424,11 +424,11 @@
 	"dependencies" : 
 	[
 		{
-			"id" : "qtflashcardapp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "qtflashcardapp_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "qtflashcardapp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "qtflashcardapp::@6890427a1f51a3e7e1df",
@@ -545,17 +545,17 @@
 	"orderDependencies" : 
 	[
 		{
-			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
-		},
-		{
 			"id" : "Qt6::moc::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "qtflashcardapp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"id" : "Qt6::uic::@6890427a1f51a3e7e1df"
 		},
 		{
 			"backtrace" : 0,
 			"id" : "qtflashcardapp_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "qtflashcardapp_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"paths" : 
@@ -570,8 +570,8 @@
 			"sourceIndexes" : 
 			[
 				0,
-				6,
-				7
+				7,
+				8
 			]
 		},
 		{
@@ -586,7 +586,8 @@
 			"name" : "Header Files",
 			"sourceIndexes" : 
 			[
-				3
+				3,
+				5
 			]
 		},
 		{
@@ -594,14 +595,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				5
+				6
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				8
+				9
 			]
 		}
 	],
@@ -635,6 +636,11 @@
 			"backtrace" : 4,
 			"path" : "mainwindow.ui",
 			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 4,
+			"path" : "FileDataManager.h",
+			"sourceGroupIndex" : 2
 		},
 		{
 			"backtrace" : 45,
