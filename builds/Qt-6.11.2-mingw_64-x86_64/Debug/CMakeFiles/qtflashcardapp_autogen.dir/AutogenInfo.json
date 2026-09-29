@@ -369,6 +369,12 @@
 			null
 		],
 		[
+			"C:/Users/liamk/Desktop/QTFlashCardApp/FileManager.h",
+			"MU",
+			"EWIEGA46WW/moc_FileManager.cpp",
+			null
+		],
+		[
 			"C:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -445,6 +451,7 @@
 	"SETTINGS_FILE" : "C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/qtflashcardapp_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[ "C:/Users/liamk/Desktop/QTFlashCardApp/FileManager.cpp", "MU", null ],
 		[ "C:/Users/liamk/Desktop/QTFlashCardApp/main.cpp", "MU", null ],
 		[ "C:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.cpp", "MU", null ]
 	],

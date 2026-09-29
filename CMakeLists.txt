@@ -12,6 +12,8 @@ qt_add_executable(${CMAKE_PROJECT_NAME}
     mainwindow.h
     mainwindow.ui
     FileDataManager.h
+    FileManager.h
+    FileManager.cpp
 )
 
 target_link_libraries(${CMAKE_PROJECT_NAME}

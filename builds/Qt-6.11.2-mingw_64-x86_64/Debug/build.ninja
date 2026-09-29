@@ -85,6 +85,18 @@ build CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj: CXX_COMPILER__qtflashcar
   TARGET_PDB = qtflashcardapp.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\qtflashcardapp.dir
 
+build CMakeFiles/qtflashcardapp.dir/FileManager.cpp.obj: CXX_COMPILER__qtflashcardapp_unscanned_Debug C$:/Users/liamk/Desktop/QTFlashCardApp/FileManager.cpp || cmake_object_order_depends_target_qtflashcardapp
+  CONFIG = Debug
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\qtflashcardapp.dir\FileManager.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
+  INCLUDES = -IC:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/include -isystem C:/Qt/6.11.2/mingw_64/include/QtCore -isystem C:/Qt/6.11.2/mingw_64/include -isystem C:/Qt/6.11.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\qtflashcardapp.dir
+  OBJECT_FILE_DIR = CMakeFiles\qtflashcardapp.dir
+  TARGET_COMPILE_PDB = CMakeFiles\qtflashcardapp.dir\
+  TARGET_PDB = qtflashcardapp.pdb
+  TARGET_SUPPORT_DIR = CMakeFiles\qtflashcardapp.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target qtflashcardapp
@@ -93,7 +105,7 @@ build CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj: CXX_COMPILER__qtflashcar
 #############################################
 # Link the executable qtflashcardapp.exe
 
-build qtflashcardapp.exe: CXX_EXECUTABLE_LINKER__qtflashcardapp_Debug CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.obj CMakeFiles/qtflashcardapp.dir/main.cpp.obj CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj | C$:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.11.2/mingw_64/lib/libQt6EntryPoint.a qtflashcardapp.exe.manifest || qtflashcardapp_autogen qtflashcardapp_autogen_timestamp_deps
+build qtflashcardapp.exe: CXX_EXECUTABLE_LINKER__qtflashcardapp_Debug CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.obj CMakeFiles/qtflashcardapp.dir/main.cpp.obj CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj CMakeFiles/qtflashcardapp.dir/FileManager.cpp.obj | C$:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.11.2/mingw_64/lib/libQt6EntryPoint.a qtflashcardapp.exe.manifest || qtflashcardapp_autogen qtflashcardapp_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   LINK_FLAGS = -mwindows

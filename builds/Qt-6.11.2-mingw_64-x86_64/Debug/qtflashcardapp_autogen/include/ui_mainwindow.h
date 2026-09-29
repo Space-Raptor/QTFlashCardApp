@@ -50,7 +50,7 @@ public:
         topicListWidget->setObjectName("topicListWidget");
         topicListWidget->setGeometry(QRect(9, 12, 256, 301));
         topicListWidget->setAutoFillBackground(false);
-        topicListWidget->setStyleSheet(QString::fromUtf8("background-color:#4A4A4A;\n"
+        topicListWidget->setStyleSheet(QString::fromUtf8("background-color:#808080;\n"
 "border-radius: 20px;"));
         newFlashCardBTN = new QPushButton(centralwidget);
         newFlashCardBTN->setObjectName("newFlashCardBTN");
