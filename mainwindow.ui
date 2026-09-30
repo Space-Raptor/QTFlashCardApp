@@ -39,12 +39,41 @@
       <height>301</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Sitka Display</family>
+     </font>
+    </property>
     <property name="autoFillBackground">
      <bool>false</bool>
     </property>
     <property name="styleSheet">
-     <string notr="true">background-color:#808080;
-border-radius: 20px;</string>
+     <string notr="true">QListWidget {
+    background-color: #808080;
+    border-radius: 20px;
+    color: #FFFFFF;
+	border: none;
+	outline: none; 
+	padding: 5px; 
+}
+QListWidget::item
+{
+border: none;
+outline: none; 
+margin: 2px; 
+}
+QListWidget::item:selected {
+    background: #173E77;
+    border-radius: 10px; 
+	border: none; 
+	outline: none; 
+}</string>
+    </property>
+    <property name="alternatingRowColors">
+     <bool>false</bool>
+    </property>
+    <property name="selectionMode">
+     <enum>QAbstractItemView::SelectionMode::MultiSelection</enum>
     </property>
    </widget>
    <widget class="QPushButton" name="newFlashCardBTN">

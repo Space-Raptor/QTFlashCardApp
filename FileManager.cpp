@@ -6,10 +6,14 @@ void filesystem::filemanager::LoadTopics(QVector<QString> selected_topics)
     return;
 }
 
-QVector<QString> filesystem::filemanager:: LoadTopicNames()
+void filesystem::filemanager:: LoadTopicNames()
 {
     QDir pathDir(data_directory);
-    
+    QFileInfoList dirs = pathDir.entryInfoList(QDir::NoDotAndDotDot | QDir::AllDirs);
+    foreach(QFileInfo f1, dirs)
+    {
+        filesystem::filedatamanager::topic_names.append(f1.fileName());
+    }
 }
 
 

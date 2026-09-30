@@ -1,6 +1,7 @@
 #include <QString>
 #include <QVector>
 #include <QJsonObject>
+#include <QFileInfoList>
 namespace filesystem
 {
     class filemanager
@@ -10,7 +11,7 @@ namespace filesystem
 
         public:
             static void LoadTopics(QVector<QString> selected_topics);
-            static QVector<QString> LoadTopicNames(); 
+            static void LoadTopicNames(); 
             static void SetUp(); 
     };
 };

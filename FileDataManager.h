@@ -1,12 +1,13 @@
 #include<QString>
 #include<QVector>
 #include<QJsonObject>
+#include<QStringList>
 namespace filesystem
 {
     class filedatamanager
     {
         public:
-            QVector<QString> topic_names = {};
-            QVector<QJsonObject> loaded_cards = {}; 
+           inline static QStringList topic_names = {};
+           inline static QVector<QJsonObject> loaded_cards = {}; 
     };
 };

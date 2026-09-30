@@ -49,14 +49,35 @@ public:
         topicListWidget = new QListWidget(centralwidget);
         topicListWidget->setObjectName("topicListWidget");
         topicListWidget->setGeometry(QRect(9, 12, 256, 301));
+        QFont font;
+        font.setFamilies({QString::fromUtf8("Sitka Display")});
+        topicListWidget->setFont(font);
         topicListWidget->setAutoFillBackground(false);
-        topicListWidget->setStyleSheet(QString::fromUtf8("background-color:#808080;\n"
-"border-radius: 20px;"));
+        topicListWidget->setStyleSheet(QString::fromUtf8("QListWidget {\n"
+"    background-color: #808080;\n"
+"    border-radius: 20px;\n"
+"    color: #FFFFFF;\n"
+"	border: none;\n"
+"	outline: none; \n"
+"	padding: 5px; \n"
+"}\n"
+"QListWidget::item\n"
+"{\n"
+"border: none;\n"
+"outline: none; \n"
+"margin: 2px; \n"
+"}\n"
+"QListWidget::item:selected {\n"
+"    background: #173E77;\n"
+"    border-radius: 10px; \n"
+"	border: none; \n"
+"	outline: none; \n"
+"}"));
+        topicListWidget->setAlternatingRowColors(false);
+        topicListWidget->setSelectionMode(QAbstractItemView::SelectionMode::MultiSelection);
         newFlashCardBTN = new QPushButton(centralwidget);
         newFlashCardBTN->setObjectName("newFlashCardBTN");
         newFlashCardBTN->setGeometry(QRect(270, 20, 141, 26));
-        QFont font;
-        font.setFamilies({QString::fromUtf8("Sitka Display")});
         newFlashCardBTN->setFont(font);
         newFlashCardBTN->setStyleSheet(QString::fromUtf8("border-radius: 8px;\n"
 "    background-color: #808080;\n"
