@@ -6,7 +6,6 @@ namespace filesystem
     class filedatamanager
     {
         public:
-            QString data_directory = "./TopicData";
             QVector<QString> topic_names = {};
             QVector<QJsonObject> loaded_cards = {}; 
     };

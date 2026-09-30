@@ -1,6 +1,6 @@
 #include "FileManager.h"
 #include "FileDataManager.h"
-
+#include <QDir>
 void filesystem::filemanager::LoadTopics(QVector<QString> selected_topics)
 {
     return;
@@ -8,11 +8,16 @@ void filesystem::filemanager::LoadTopics(QVector<QString> selected_topics)
 
 QVector<QString> filesystem::filemanager:: LoadTopicNames()
 {
-    return; 
+    QDir pathDir(data_directory);
+    
 }
 
 
 void filesystem::filemanager:: SetUp()
 {
-    return; 
+    QDir pathDir(data_directory);
+    if(!pathDir.exists())
+    {
+        pathDir.mkdir("."); 
+    }
 }

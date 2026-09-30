@@ -1,13 +1,16 @@
-#include<QString>
-#include<QVector>
-#include<QJsonObject>
+#include <QString>
+#include <QVector>
+#include <QJsonObject>
 namespace filesystem
 {
     class filemanager
     {
+        private: 
+            inline static QString data_directory = "./TopicData";
+
         public:
-            void LoadTopics(QVector<QString> selected_topics);
-            QVector<QString> LoadTopicNames(); 
-            void SetUp(); 
+            static void LoadTopics(QVector<QString> selected_topics);
+            static QVector<QString> LoadTopicNames(); 
+            static void SetUp(); 
     };
 };
