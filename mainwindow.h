@@ -13,6 +13,12 @@ class MainWindow : public QMainWindow
     public: 
         MainWindow(); 
         ~MainWindow(); 
+
+    private slots: 
+        void on_newFlashCardBTN_Clicked(); 
+        void on_newTopicBTN_Clicked(); 
+        void on_startBTN_Clicked(); 
+
     private:
         Ui::MainWindow *ui;
 }; 
