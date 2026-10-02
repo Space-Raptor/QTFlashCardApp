@@ -6,10 +6,8 @@ namespace filesystem
 {
     class filemanager
     {
-        private: 
-            inline static QString data_directory = "./TopicData";
-
         public:
+            inline static QString data_directory = "./TopicData";
             static void LoadTopics(QVector<QString> selected_topics);
             static void LoadTopicNames(); 
             static void SetUp(); 

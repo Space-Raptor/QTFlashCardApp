@@ -39,13 +39,10 @@
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreTargets.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfig.cmake",
-			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateTargets.cmake",
-			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateConfig.cmake",
-			"C:/msys64/ucrt64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
-			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
-			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiConfig.cmake",
+			"C:/msys64/ucrt64/share/cmake/Modules/CMakeFindDependencyMacro.cmake",
+			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6/QtPublicWindowsHelpers.cmake",
 			"C:/Qt/6.11.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreMacros.cmake:942:EVAL"
@@ -161,9 +158,9 @@
 			},
 			{
 				"command" : 7,
-				"file" : 6,
-				"line" : 42,
-				"parent" : 16
+				"file" : 3,
+				"line" : 40,
+				"parent" : 10
 			},
 			{
 				"file" : 11,
@@ -172,7 +169,7 @@
 			{
 				"command" : 11,
 				"file" : 11,
-				"line" : 52,
+				"line" : 51,
 				"parent" : 21
 			},
 			{
@@ -214,93 +211,33 @@
 				"parent" : 28
 			},
 			{
-				"command" : 6,
-				"file" : 7,
-				"line" : 94,
-				"parent" : 28
-			},
-			{
-				"command" : 7,
-				"file" : 3,
-				"line" : 40,
-				"parent" : 10
-			},
-			{
-				"file" : 14,
-				"parent" : 31
-			},
-			{
-				"command" : 11,
-				"file" : 14,
-				"line" : 51,
-				"parent" : 32
-			},
-			{
-				"command" : 10,
-				"file" : 10,
-				"line" : 142,
-				"parent" : 33
-			},
-			{
-				"command" : 9,
-				"file" : 9,
-				"line" : 125,
-				"parent" : 34
-			},
-			{
-				"command" : 8,
-				"file" : 9,
-				"line" : 93,
-				"parent" : 35
-			},
-			{
-				"file" : 13,
-				"parent" : 36
-			},
-			{
-				"command" : 7,
-				"file" : 13,
-				"line" : 55,
-				"parent" : 37
-			},
-			{
-				"file" : 12,
-				"parent" : 38
-			},
-			{
-				"command" : 6,
-				"file" : 12,
-				"line" : 61,
-				"parent" : 39
-			},
-			{
 				"file" : 1,
 				"line" : -1,
 				"parent" : 0
 			},
 			{
 				"command" : 15,
-				"file" : 16,
+				"file" : 13,
 				"line" : 1,
-				"parent" : 41
+				"parent" : 30
 			},
 			{
 				"command" : 14,
 				"file" : 0,
 				"line" : 898,
-				"parent" : 42
+				"parent" : 31
 			},
 			{
 				"command" : 13,
 				"file" : 0,
 				"line" : 835,
-				"parent" : 43
+				"parent" : 32
 			},
 			{
 				"command" : 12,
-				"file" : 15,
+				"file" : 12,
 				"line" : 126,
-				"parent" : 44
+				"parent" : 33
 			}
 		]
 	},
@@ -346,10 +283,6 @@
 				{
 					"backtrace" : 6,
 					"define" : "QT_GUI_LIB"
-				},
-				{
-					"backtrace" : 14,
-					"define" : "QT_NEEDS_QMAIN"
 				},
 				{
 					"backtrace" : 6,
@@ -456,10 +389,6 @@
 				"role" : "flags"
 			},
 			{
-				"fragment" : "-mwindows",
-				"role" : "flags"
-			},
-			{
 				"backtrace" : 6,
 				"fragment" : "C:\\Qt\\6.11.2\\mingw_64\\lib\\libQt6Widgets.a",
 				"role" : "libraries"
@@ -486,36 +415,21 @@
 			},
 			{
 				"backtrace" : 29,
-				"fragment" : "-lmingw32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 29,
-				"fragment" : "C:\\Qt\\6.11.2\\mingw_64\\lib\\libQt6EntryPoint.a",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 30,
-				"fragment" : "-lshell32",
-				"role" : "libraries"
-			},
-			{
-				"backtrace" : 40,
 				"fragment" : "-ld3d11",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 40,
+				"backtrace" : 29,
 				"fragment" : "-ldxgi",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 40,
+				"backtrace" : 29,
 				"fragment" : "-ldxguid",
 				"role" : "libraries"
 			},
 			{
-				"backtrace" : 40,
+				"backtrace" : 29,
 				"fragment" : "-ld3d12",
 				"role" : "libraries"
 			},
@@ -657,7 +571,7 @@
 			"sourceGroupIndex" : 1
 		},
 		{
-			"backtrace" : 45,
+			"backtrace" : 34,
 			"path" : "builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp.exe.manifest",
 			"sourceGroupIndex" : 3
 		},

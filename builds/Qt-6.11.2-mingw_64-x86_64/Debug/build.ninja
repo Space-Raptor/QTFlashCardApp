@@ -51,7 +51,7 @@ build cmake_object_order_depends_target_qtflashcardapp: phony || qtflashcardapp_
 
 build CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__qtflashcardapp_unscanned_Debug C$:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_qtflashcardapp
   CONFIG = Debug
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\qtflashcardapp.dir\qtflashcardapp_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   INCLUDES = -IC:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/include -isystem C:/Qt/6.11.2/mingw_64/include/QtCore -isystem C:/Qt/6.11.2/mingw_64/include -isystem C:/Qt/6.11.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.2/mingw_64/include/QtGui
@@ -61,7 +61,7 @@ build CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.
 
 build CMakeFiles/qtflashcardapp.dir/main.cpp.obj: CXX_COMPILER__qtflashcardapp_unscanned_Debug C$:/Users/liamk/Desktop/QTFlashCardApp/main.cpp || cmake_object_order_depends_target_qtflashcardapp
   CONFIG = Debug
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\qtflashcardapp.dir\main.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   INCLUDES = -IC:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/include -isystem C:/Qt/6.11.2/mingw_64/include/QtCore -isystem C:/Qt/6.11.2/mingw_64/include -isystem C:/Qt/6.11.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.2/mingw_64/include/QtGui
@@ -71,7 +71,7 @@ build CMakeFiles/qtflashcardapp.dir/main.cpp.obj: CXX_COMPILER__qtflashcardapp_u
 
 build CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj: CXX_COMPILER__qtflashcardapp_unscanned_Debug C$:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.cpp || cmake_object_order_depends_target_qtflashcardapp
   CONFIG = Debug
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\qtflashcardapp.dir\mainwindow.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   INCLUDES = -IC:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/include -isystem C:/Qt/6.11.2/mingw_64/include/QtCore -isystem C:/Qt/6.11.2/mingw_64/include -isystem C:/Qt/6.11.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.2/mingw_64/include/QtGui
@@ -81,7 +81,7 @@ build CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj: CXX_COMPILER__qtflashcar
 
 build CMakeFiles/qtflashcardapp.dir/FileManager.cpp.obj: CXX_COMPILER__qtflashcardapp_unscanned_Debug C$:/Users/liamk/Desktop/QTFlashCardApp/FileManager.cpp || cmake_object_order_depends_target_qtflashcardapp
   CONFIG = Debug
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\qtflashcardapp.dir\FileManager.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
   INCLUDES = -IC:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/include -isystem C:/Qt/6.11.2/mingw_64/include/QtCore -isystem C:/Qt/6.11.2/mingw_64/include -isystem C:/Qt/6.11.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.11.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.11.2/mingw_64/include/QtGui
@@ -97,11 +97,10 @@ build CMakeFiles/qtflashcardapp.dir/FileManager.cpp.obj: CXX_COMPILER__qtflashca
 #############################################
 # Link the executable qtflashcardapp.exe
 
-build qtflashcardapp.exe: CXX_EXECUTABLE_LINKER__qtflashcardapp_Debug CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.obj CMakeFiles/qtflashcardapp.dir/main.cpp.obj CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj CMakeFiles/qtflashcardapp.dir/FileManager.cpp.obj | C$:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.11.2/mingw_64/lib/libQt6EntryPoint.a qtflashcardapp.exe.manifest || qtflashcardapp_autogen qtflashcardapp_autogen_timestamp_deps
+build qtflashcardapp.exe: CXX_EXECUTABLE_LINKER__qtflashcardapp_Debug CMakeFiles/qtflashcardapp.dir/qtflashcardapp_autogen/mocs_compilation.cpp.obj CMakeFiles/qtflashcardapp.dir/main.cpp.obj CMakeFiles/qtflashcardapp.dir/mainwindow.cpp.obj CMakeFiles/qtflashcardapp.dir/FileManager.cpp.obj | C$:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.11.2/mingw_64/lib/libQt6Core.a qtflashcardapp.exe.manifest || qtflashcardapp_autogen qtflashcardapp_autogen_timestamp_deps
   CONFIG = Debug
   FLAGS = -DQT_QML_DEBUG -DQT_DECLARATIVE_DEBUG -g
-  LINK_FLAGS = -mwindows
-  LINK_LIBRARIES = C:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.11.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.11.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_LIBRARIES = C:/Qt/6.11.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.11.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.11.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   MANIFESTS = qtflashcardapp.exe.manifest
   OBJECT_DIR = CMakeFiles\qtflashcardapp.dir
   POST_BUILD = cd .

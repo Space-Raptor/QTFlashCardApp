@@ -6,7 +6,7 @@ find_package(Qt6 6.5 REQUIRED COMPONENTS Core Widgets)
 qt_standard_project_setup()
 
 qt_add_executable(${CMAKE_PROJECT_NAME}
-    WIN32 MACOSX_BUNDLE
+   
     main.cpp
     mainwindow.cpp
     mainwindow.h

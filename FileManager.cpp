@@ -8,6 +8,7 @@ void filesystem::filemanager::LoadTopics(QVector<QString> selected_topics)
 
 void filesystem::filemanager:: LoadTopicNames()
 {
+    filesystem::filedatamanager::topic_names.clear();
     QDir pathDir(data_directory);
     QFileInfoList dirs = pathDir.entryInfoList(QDir::NoDotAndDotDot | QDir::AllDirs);
     foreach(QFileInfo f1, dirs)

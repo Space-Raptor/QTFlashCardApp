@@ -79,26 +79,47 @@ public:
         newFlashCardBTN->setObjectName("newFlashCardBTN");
         newFlashCardBTN->setGeometry(QRect(270, 20, 141, 26));
         newFlashCardBTN->setFont(font);
-        newFlashCardBTN->setStyleSheet(QString::fromUtf8("border-radius: 8px;\n"
+        newFlashCardBTN->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"border-radius: 8px;\n"
 "    background-color: #808080;\n"
 "    color: white;\n"
-"    border: none;"));
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:pressed\n"
+"{\n"
+"background-color: #363737\n"
+"}"));
         newTopicBTN = new QPushButton(centralwidget);
         newTopicBTN->setObjectName("newTopicBTN");
         newTopicBTN->setGeometry(QRect(270, 50, 141, 26));
         newTopicBTN->setFont(font);
-        newTopicBTN->setStyleSheet(QString::fromUtf8("border-radius: 8px;\n"
+        newTopicBTN->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"border-radius: 8px;\n"
 "    background-color: #808080;\n"
 "    color: white;\n"
-"    border: none;"));
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:pressed\n"
+"{\n"
+"background-color: #363737\n"
+"}"));
         startBTN = new QPushButton(centralwidget);
         startBTN->setObjectName("startBTN");
         startBTN->setGeometry(QRect(270, 80, 141, 26));
         startBTN->setFont(font);
-        startBTN->setStyleSheet(QString::fromUtf8("border-radius: 8px;\n"
+        startBTN->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"border-radius: 8px;\n"
 "    background-color: #808080;\n"
 "    color: white;\n"
-"    border: none;"));
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:pressed\n"
+"{\n"
+"background-color: #363737\n"
+"}"));
         MainWindow->setCentralWidget(centralwidget);
         newFlashCardBTN->raise();
         newTopicBTN->raise();

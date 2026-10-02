@@ -21,4 +21,5 @@ class MainWindow : public QMainWindow
 
     private:
         Ui::MainWindow *ui;
+        void set_list_items();
 }; 

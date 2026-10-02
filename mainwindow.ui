@@ -91,10 +91,17 @@ QListWidget::item:selected {
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 8px;
+     <string notr="true">QPushButton{
+border-radius: 8px;
     background-color: #808080;
     color: white;
-    border: none;</string>
+    border: none;
+}
+
+QPushButton:pressed
+{
+background-color: #363737
+}</string>
     </property>
     <property name="text">
      <string>Upload new flash cards</string>
@@ -115,10 +122,17 @@ QListWidget::item:selected {
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 8px;
+     <string notr="true">QPushButton{
+border-radius: 8px;
     background-color: #808080;
     color: white;
-    border: none;</string>
+    border: none;
+}
+
+QPushButton:pressed
+{
+background-color: #363737
+}</string>
     </property>
     <property name="text">
      <string>Create New Topic</string>
@@ -139,10 +153,17 @@ QListWidget::item:selected {
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-radius: 8px;
+     <string notr="true">QPushButton{
+border-radius: 8px;
     background-color: #808080;
     color: white;
-    border: none;</string>
+    border: none;
+}
+
+QPushButton:pressed
+{
+background-color: #363737
+}</string>
     </property>
     <property name="text">
      <string>Begin with selected topics</string>
