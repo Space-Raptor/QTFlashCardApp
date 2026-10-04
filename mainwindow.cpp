@@ -6,6 +6,9 @@
 #include <QDir>
 #include <QInputDialog>
 #include <QErrorMessage>
+#include <QFileDialog>
+#include <QFile>
+
 
 MainWindow::MainWindow()
     : QMainWindow()
@@ -29,7 +32,19 @@ MainWindow::~MainWindow()
 
 void MainWindow:: on_newFlashCardBTN_Clicked()
 {
-    qInfo() << "working";
+    bool ok; 
+    QString item  = QInputDialog::getItem(this, "Select Topic to upload to", "", filesystem::filedatamanager::topic_names, 0, false, &ok); 
+    if(ok)
+    {
+        QString file_path = QFileDialog::getOpenFileName(this, "select a json file", "C:\\", "(*.json)" );
+        QString file_name = QFileInfo(file_path).fileName();
+        qDebug() << file_name;
+        if(!QFile::copy(file_path, (filesystem::filemanager::data_directory + "/" + item + "/" + file_name)))
+        {
+            qDebug() << "failed";
+        }; 
+        QFile::remove(file_path); 
+    }
 }
 
 void MainWindow:: on_newTopicBTN_Clicked()
