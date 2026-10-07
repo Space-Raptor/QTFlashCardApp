@@ -300,6 +300,12 @@
 			null
 		],
 		[
+			"C:/Users/liamk/Desktop/QTFlashCardApp/helper.h",
+			"MU",
+			"EWIEGA46WW/moc_helper.cpp",
+			null
+		],
+		[
 			"C:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -376,6 +382,7 @@
 	"SOURCES" : 
 	[
 		[ "C:/Users/liamk/Desktop/QTFlashCardApp/FileManager.cpp", "MU", null ],
+		[ "C:/Users/liamk/Desktop/QTFlashCardApp/helper.cpp", "MU", null ],
 		[ "C:/Users/liamk/Desktop/QTFlashCardApp/main.cpp", "MU", null ],
 		[ "C:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.cpp", "MU", null ]
 	],

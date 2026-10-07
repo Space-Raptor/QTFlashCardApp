@@ -557,6 +557,8 @@ qtflashcardapp_autogen/timestamp: \
 	C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/4.3.3/CMakeRCCompiler.cmake \
 	C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/4.3.3/CMakeSystem.cmake \
 	C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/qtflashcardapp_autogen/moc_predefs.h \
+	C:/Users/liamk/Desktop/QTFlashCardApp/helper.cpp \
+	C:/Users/liamk/Desktop/QTFlashCardApp/helper.h \
 	C:/Users/liamk/Desktop/QTFlashCardApp/main.cpp \
 	C:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.cpp \
 	C:/Users/liamk/Desktop/QTFlashCardApp/mainwindow.h \

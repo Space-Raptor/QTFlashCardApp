@@ -485,7 +485,7 @@
 					],
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-4848669888edab278a24.json",
+					"jsonFile" : "directory-.-Debug-52dba5196d3a05b1a66e.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -584,7 +584,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "qtflashcardapp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-qtflashcardapp-Debug-3d485f9a187b22fc1dd7.json",
+					"jsonFile" : "target-qtflashcardapp-Debug-18e94be65ebffbc702b8.json",
 					"name" : "qtflashcardapp",
 					"projectIndex" : 0
 				},

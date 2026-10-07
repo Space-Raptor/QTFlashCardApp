@@ -67,7 +67,12 @@ void MainWindow:: on_newTopicBTN_Clicked()
 
 void MainWindow:: on_startBTN_Clicked()
 {
-    qInfo() << "working";
+    filesystem::filemanager::LoadTopics(ui->topicListWidget->selectedItems()); 
+    for(auto &a : filesystem::filedatamanager::loaded_cards)
+    {
+        qInfo() << a["question"] << "Answer: " << a["correctAnswer"]; 
+    }
+    qInfo() << "END" << "\n";
 }
 
 
