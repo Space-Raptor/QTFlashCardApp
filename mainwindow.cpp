@@ -9,7 +9,8 @@
 #include <QFileDialog>
 #include <QFile>
 #include <qDebug>
-
+#include <algorithm>
+#include <random>
 MainWindow::MainWindow()
     : QMainWindow()
     , ui(new Ui::MainWindow()) 
@@ -30,6 +31,7 @@ MainWindow::MainWindow()
     connect(ui->AnswerBTN_3, SIGNAL(clicked()), this, SLOT(on_answerBTN_clicked()));
     connect(ui->AnswerBTN_4, SIGNAL(clicked()), this, SLOT(on_answerBTN_clicked()));
     connect(ui->next_BTN,  SIGNAL(clicked()), this, SLOT(on_nextBTN_clicked()));
+    connect(ui->exit_BTN_2,   &QPushButton::clicked, this, [this](){ui->stackedWidget->setCurrentIndex(0); global_card_indx = 0;});
 
     ui->stackedWidget->setCurrentIndex(0);
 }
@@ -77,6 +79,10 @@ void MainWindow:: on_newTopicBTN_Clicked()
 void MainWindow:: on_startBTN_Clicked()
 {
     filesystem::filemanager::LoadTopics(ui->topicListWidget->selectedItems()); 
+
+    std::mt19937 gen(std::random_device{}());
+    std::shuffle(filesystem::filedatamanager::loaded_cards.begin(), filesystem::filedatamanager::loaded_cards.end(), gen); 
+
     ui->stackedWidget->setCurrentIndex(1);
     setGameCardState(); 
 }
@@ -111,8 +117,7 @@ void MainWindow:: on_answerBTN_clicked()
 
     if(user_answer == correct_answer){correct++;}
     else{incorrect++;}
-    qInfo() << user_answer;
-    qInfo() << correct_answer;
+
     if(a_answer == correct_answer)
     {
         ui->AnswerBTN_1->setStyleSheet("background-color: green;");
@@ -154,12 +159,16 @@ void MainWindow:: on_answerBTN_clicked()
 
 void MainWindow:: setGameCardState()
 {
+    if(filesystem::filedatamanager::loaded_cards.isEmpty()){return;}
      auto card = filesystem::filedatamanager::loaded_cards[global_card_indx];
     
      QStringList answers = {card["correctAnswer"].toString(), card["answer1"].toString(),card["answer2"].toString(),card["answer3"].toString()};
      
      ui->label_Question->setText(card["question"].toString());
      
+     std::mt19937 gen(std::random_device{}());
+     std::shuffle(answers.begin(), answers.end(), gen);
+
      ui->label_A->setText("A: "  + answers[0]);
      ui->label_B->setText("B: "  + answers[1]);
      ui->label_C->setText("C: "  + answers[2]);
@@ -184,6 +193,11 @@ void MainWindow:: on_nextBTN_clicked()
     ui->AnswerBTN_3->setStyleSheet("background-color:#808080");
     ui->AnswerBTN_4->setStyleSheet("background-color:#808080");
     
-    global_card_indx++; 
-    setGameCardState(); 
+    if(global_card_indx < filesystem::filedatamanager::loaded_cards.size() - 1)
+    {
+        global_card_indx++;
+        setGameCardState();
+    } 
+
+     
 }

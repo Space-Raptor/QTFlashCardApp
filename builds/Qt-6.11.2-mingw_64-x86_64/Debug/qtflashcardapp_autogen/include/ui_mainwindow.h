@@ -48,6 +48,7 @@ public:
     QLabel *correct_label;
     QLabel *incorrect_label;
     QPushButton *next_BTN;
+    QPushButton *exit_BTN_2;
     QStatusBar *statusbar;
 
     void setupUi(QMainWindow *MainWindow)
@@ -269,6 +270,20 @@ public:
 "{\n"
 "background-color: #363737\n"
 "}"));
+        exit_BTN_2 = new QPushButton(page_2);
+        exit_BTN_2->setObjectName("exit_BTN_2");
+        exit_BTN_2->setGeometry(QRect(700, 310, 81, 26));
+        exit_BTN_2->setStyleSheet(QString::fromUtf8("QPushButton{\n"
+"border-radius: 8px;\n"
+"    background-color: #808080;\n"
+"    color: white;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:pressed\n"
+"{\n"
+"background-color: #363737\n"
+"}"));
         stackedWidget->addWidget(page_2);
         MainWindow->setCentralWidget(centralwidget);
         statusbar = new QStatusBar(MainWindow);
@@ -301,6 +316,7 @@ public:
         correct_label->setText(QCoreApplication::translate("MainWindow", "Correct:", nullptr));
         incorrect_label->setText(QCoreApplication::translate("MainWindow", "Incorrect:", nullptr));
         next_BTN->setText(QCoreApplication::translate("MainWindow", "Next", nullptr));
+        exit_BTN_2->setText(QCoreApplication::translate("MainWindow", "Exit", nullptr));
     } // retranslateUi
 
 };

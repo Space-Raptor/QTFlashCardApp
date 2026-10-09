@@ -4,8 +4,6 @@
 #include <QDir>
 #include <QIODevice>
 #include <QJsonArray>
-#include <algorithm>
-#include <random>
 QVector<QJsonObject> readjson(QString path)
 {
     QDir files_path(path);
@@ -28,7 +26,5 @@ QVector<QJsonObject> readjson(QString path)
     {
         json_obj.append(jsonobj.toObject());
     }
-    std::mt19937 gen(std::random_device{}());
-    std::shuffle(json_obj.begin(), json_obj.end(), gen); 
     return json_obj; 
 }

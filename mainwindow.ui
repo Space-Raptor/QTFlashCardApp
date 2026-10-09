@@ -474,6 +474,32 @@ background-color: #363737
        <string>Next</string>
       </property>
      </widget>
+     <widget class="QPushButton" name="exit_BTN_2">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>310</y>
+        <width>81</width>
+        <height>26</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton{
+border-radius: 8px;
+    background-color: #808080;
+    color: white;
+    border: none;
+}
+
+QPushButton:pressed
+{
+background-color: #363737
+}</string>
+      </property>
+      <property name="text">
+       <string>Exit</string>
+      </property>
+     </widget>
     </widget>
    </widget>
   </widget>
