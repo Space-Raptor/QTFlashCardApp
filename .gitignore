@@ -1,0 +1,19 @@
+# Qt / CMake build folders
+builds/
+build/
+cmake-build-*/
+
+# Compiled files
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+
+# Qt Creator personal settings
+*.user
+*.user.*
+
+# IDE folders
+.vscode/

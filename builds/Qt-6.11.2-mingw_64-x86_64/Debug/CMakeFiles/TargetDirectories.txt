@@ -1,9 +1,0 @@
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/qtflashcardapp.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/edit_cache.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/list_install_components.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/install.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/install/local.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/install/strip.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/qtflashcardapp_autogen_timestamp_deps.dir
-C:/Users/liamk/Desktop/QTFlashCardApp/builds/Qt-6.11.2-mingw_64-x86_64/Debug/CMakeFiles/qtflashcardapp_autogen.dir
