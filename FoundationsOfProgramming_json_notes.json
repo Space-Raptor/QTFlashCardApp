@@ -1,0 +1,121 @@
+[
+  {
+    "question": "What is a namespace?",
+    "correctAnswer": "A namespace is a way to organise and group classes. Using namespaces avoids naming conflicts between classes.",
+    "answer1": "A namespace is a way to organise objects and methods within a class, preventing conflicts between variables with the same name.",
+    "answer2": "A namespace is a container that allows classes to share functionality and inherit from one another without creating naming conflicts.",
+    "answer3": "A namespace is a special class structure used to group related classes together and control which classes can access each other."
+  },
+  {
+    "question": "In C# what does the \"this\" keyword refer to?",
+    "correctAnswer": "\"this\" refers to the current calling object. You can use \"this\" to call other constructors in the same class.",
+    "answer1": "\"this\" refers to the parent class of the current object and can be used to access inherited constructors and methods.",
+    "answer2": "\"this\" refers to the class itself rather than a specific object and can be used to access static members of the class.",
+    "answer3": "\"this\" refers to the object that originally created the current object and can be used to access its properties and methods."
+  },
+  {
+    "question": "What is a constructor?",
+    "correctAnswer": "A constructor is a special method called upon an object's creation. A class can have multiple constructors that are differentiated by their parameters.",
+    "answer1": "A constructor is a special method called when an object is destroyed. A class can have multiple constructors as long as each has a different return type.",
+    "answer2": "A constructor is a method used to define the behaviour of an object after it has been created, and each class can only have one constructor.",
+    "answer3": "A constructor is a special method used to initialise a class and can only be called explicitly after an object has already been created."
+  },
+  {
+    "question": "What is a Finalizer (Destructor)?",
+    "correctAnswer": "A Finalizer is a special method that is called by the garbage collector and is used to clean up unmanaged memory.",
+    "answer1": "A Finalizer is a special method that is called automatically when an object is created and is used to initialise unmanaged resources.",
+    "answer2": "A Finalizer is a method that is called when an object goes out of scope and immediately releases all memory associated with that object.",
+    "answer3": "A Finalizer is a method that must be called manually by the programmer to release managed and unmanaged memory before an object is destroyed."
+  },
+  {
+    "question": "What is Garbage Collection?",
+    "correctAnswer": "Garbage collection is an automatic memory cleanup process that frees memory that has no connection to the program. It is used in C# and other languages.",
+    "answer1": "Garbage collection is a process that automatically deletes unused classes and methods from a program to reduce the size of the compiled application.",
+    "answer2": "Garbage collection is a process that identifies memory currently being used by a program and automatically moves it to a separate area for long-term storage.",
+    "answer3": "Garbage collection is a manual memory management process where the programmer identifies unused objects and explicitly releases their allocated memory."
+  },
+  {
+    "question": "What is a property?",
+    "correctAnswer": "A property is data within a class that is controlled by getters and setters.",
+    "answer1": "A property is a private variable within a class that can only be accessed through methods defined specifically for reading and writing its value.",
+    "answer2": "A property is a method within a class that is used to perform operations on data and can optionally return a value.",
+    "answer3": "A property is a class member that stores data directly and automatically provides public access to the underlying variable without getters or setters."
+  },
+  {
+    "question": "What is inheritance?",
+    "correctAnswer": "Inheritance is the feature of allowing a class to inherit the functionality of another class. The original class is known as the parent and the derived class is called the child.",
+    "answer1": "Inheritance is the feature of allowing a parent class to automatically inherit the functionality of its child classes.",
+    "answer2": "Inheritance is the feature of allowing classes to share functionality by copying the methods and properties of one class into another class.",
+    "answer3": "Inheritance is the feature of allowing a class to use another class's functionality without creating a relationship between the two classes."
+  },
+  {
+    "question": "Why is inheritance useful?",
+    "correctAnswer": "Inheritance is useful because it allows for code reusability and creates a natural logical hierarchy that can model real-world relationships, which in turn helps with the structure of a program.",
+    "answer1": "Inheritance is useful because it prevents classes from sharing functionality directly and ensures that each class maintains its own independent implementation.",
+    "answer2": "Inheritance is useful because it allows every class in a program to inherit from multiple parent classes, reducing the need to create separate implementations.",
+    "answer3": "Inheritance is useful because it removes the need for objects and allows all functionality to be defined within a single parent class."
+  },
+  {
+    "question": "In C# how many classes can a single class inherit from?",
+    "correctAnswer": "1, because C# only supports single class inheritance.",
+    "answer1": "2, because C# allows a class to inherit from one primary class and one secondary class.",
+    "answer2": "Unlimited, because C# allows a class to inherit from as many classes as necessary as long as their members do not conflict.",
+    "answer3": "0, because C# does not support class inheritance and instead requires interfaces to provide inherited functionality."
+  },
+  {
+    "question": "What is Polymorphism?",
+    "correctAnswer": "Polymorphism is a language feature that allows a derived class to be treated and used like its parent class.",
+    "answer1": "Polymorphism is a language feature that allows a parent class to automatically inherit all unique functionality from its derived classes.",
+    "answer2": "Polymorphism is a language feature that allows multiple classes to have the same name as long as they belong to different namespaces.",
+    "answer3": "Polymorphism is a language feature that allows a derived class to replace its parent class entirely while maintaining the same interface."
+  },
+  {
+    "question": "What is the benefit of polymorphism?",
+    "correctAnswer": "Having polymorphism allows you to write general code for a base class that can be used on all derived classes using their unique overridden implementations.",
+    "answer1": "Having polymorphism allows you to write separate code for every derived class, preventing the base class from being used directly.",
+    "answer2": "Having polymorphism allows all derived classes to share exactly the same implementation, removing the need to override methods.",
+    "answer3": "Having polymorphism allows a base class to automatically change its implementation depending on which derived class was created, without using overriding."
+  },
+  {
+    "question": "What is abstraction in programming?",
+    "correctAnswer": "Abstraction is the idea that irrelevant implementation details should be hidden from users and only details allowing for functionality should be exposed.",
+    "answer1": "Abstraction is the idea that all implementation details should be exposed to users so that they can directly control how functionality works.",
+    "answer2": "Abstraction is the idea that a program should contain only one implementation of each feature so that unnecessary classes are removed.",
+    "answer3": "Abstraction is the idea that implementation details should be copied into derived classes so that they can independently provide the same functionality."
+  },
+  {
+    "question": "What is the benefit of abstraction?",
+    "correctAnswer": "Hiding implementation details allows for a more streamlined and robust way to use the thing that's being abstracted.",
+    "answer1": "Exposing implementation details allows users to directly modify the internal behaviour of an abstraction, making it more flexible and robust.",
+    "answer2": "Hiding implementation details ensures that the abstracted object cannot be reused by other parts of a program, reducing potential errors.",
+    "answer3": "Abstraction improves a program by removing the need for classes to expose any functionality to the user."
+  },
+  {
+    "question": "What is the Abstract keyword used for in C#?",
+    "correctAnswer": "It is used to declare a class as incomplete and to signal that it should only be used as a base class. All derived classes must implement any abstract methods using the override keyword.",
+    "answer1": "It is used to declare a class as complete and prevent it from being inherited, while requiring any methods inside it to be overridden by child classes.",
+    "answer2": "It is used to declare a class as incomplete and allows it to be instantiated directly, while giving derived classes the option to override its methods.",
+    "answer3": "It is used to declare a class as a base class that cannot contain implemented methods and requires every member to be overridden by derived classes."
+  },
+  {
+    "question": "What is the benefit of the Abstract keyword?",
+    "correctAnswer": "It allows you to enforce behaviour to derived classes without the base class having the ability to be instantiated.",
+    "answer1": "It allows you to enforce behaviour on a base class while allowing the base class to be instantiated independently of its derived classes.",
+    "answer2": "It allows derived classes to inherit functionality without requiring them to implement any behaviour defined by the base class.",
+    "answer3": "It allows you to prevent derived classes from changing the behaviour defined by the base class while still allowing the base class to be instantiated."
+  },
+  {
+    "question": "What is an Interface in C#?",
+    "correctAnswer": "An interface is a pure contract for a class that outlines what that class has to implement.",
+    "answer1": "An interface is a base class that provides shared implementation for classes while requiring them to inherit its functionality.",
+    "answer2": "An interface is a class template that defines how a class should be constructed but does not specify which behaviours it must implement.",
+    "answer3": "An interface is a contract that automatically provides default implementations to any class that references it."
+  },
+  {
+    "question": "How are Interfaces and Abstract classes different?",
+    "correctAnswer": "An interface doesn't have any implementation; this means that the class doesn't inherit any functionality from it. It's just a way to enforce behaviour. A class typically has a \"can do\" relationship with an interface, while a class has an \"is a\" relationship with an abstract class.",
+    "answer1": "An interface provides shared implementation to derived classes, while an abstract class only defines behaviour that must be implemented. Interfaces represent an \"is a\" relationship and abstract classes represent a \"can do\" relationship.",
+    "answer2": "An interface and an abstract class both provide implementation, but an interface is used for an \"is a\" relationship while an abstract class is used for a \"can do\" relationship.",
+    "answer3": "An interface is primarily used to provide inherited functionality and state, while an abstract class is only used to enforce behaviour without providing any implementation."
+  }
+]
